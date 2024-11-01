@@ -18,6 +18,35 @@ The system is built with a modular architecture that ensures high performance an
 
 [System Architecture Diagram will be here]
 
+## Repository Structure
+
+HandTrack3D/
+├── src/
+│   ├──__init__.py
+│   ├── main.py
+│   ├── config.py
+│   ├── hand_tracker.py
+│   ├── depth_estimator.py
+│   ├── interaction_system.py
+│   └── utils/
+│       ├──__init__.py
+│       ├── visualization.py
+│       └── mqtt_handler.py
+├── assets/
+│   ├── sounds/
+│   │   ├── ring_1.mp3
+│   │   └── ring_2.mp3
+│   └── images/
+│       ├── thumbs_up.png
+│       └── thumbs_down.png
+├── tests/
+│   └──__init__.py
+├── docs/
+│   └── API.md
+├── requirements.txt
+├── LICENSE
+└── README.md
+
 ## 🚀 Quick Start
 
 1. **Clone the repository**
