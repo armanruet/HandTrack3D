@@ -16,20 +16,25 @@ A sophisticated real-time hand tracking system that combines depth estimation, g
 
 The system is built with a modular architecture that ensures high performance and maintainability:
 
-[System Architecture Diagram will be here]
+![alt text](image-1.png)
+
+![alt text](image.png)
 
 ## Repository Structure
 
+
+
+```
 HandTrack3D/
 ├── src/
-│   ├──__init__.py
+│   ├── __init__.py
 │   ├── main.py
 │   ├── config.py
 │   ├── hand_tracker.py
 │   ├── depth_estimator.py
 │   ├── interaction_system.py
 │   └── utils/
-│       ├──__init__.py
+│       ├── __init__.py
 │       ├── visualization.py
 │       └── mqtt_handler.py
 ├── assets/
@@ -40,12 +45,58 @@ HandTrack3D/
 │       ├── thumbs_up.png
 │       └── thumbs_down.png
 ├── tests/
-│   └──__init__.py
+│   └── __init__.py
 ├── docs/
 │   └── API.md
 ├── requirements.txt
 ├── LICENSE
 └── README.md
+```
+
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#f8fafc"/>
+  
+  <!-- Root Container -->
+  <g transform="translate(20, 20)">
+    <!-- HandTrack3D Root -->
+    <rect x="0" y="0" width="760" height="40" rx="5" fill="#3b82f6"/>
+    <text x="20" y="25" font-family="Arial" font-size="16" fill="white">HandTrack3D/</text>
+    <!-- Main Directories -->
+    <g transform="translate(20, 50)">
+      <!-- src directory -->
+      <rect x="0" y="0" width="350" height="200" rx="5" fill="#10b981" fill-opacity="0.1" stroke="#10b981"/>
+      <text x="10" y="20" font-family="Arial" font-size="14" fill="#10b981">src/</text>
+      <text x="10" y="45" font-family="Arial" font-size="12" fill="#475569">• main.py</text>
+      <text x="10" y="65" font-family="Arial" font-size="12" fill="#475569">• config.py</text>
+      <text x="10" y="85" font-family="Arial" font-size="12" fill="#475569">• hand_tracker.py</text>
+      <text x="10" y="105" font-family="Arial" font-size="12" fill="#475569">• depth_estimator.py</text>
+      <text x="10" y="125" font-family="Arial" font-size="12" fill="#475569">• interaction_system.py</text>
+      <!-- utils subdirectory -->
+      <rect x="20" y="140" width="310" height="50" rx="5" fill="#0d9488" fill-opacity="0.1" stroke="#0d9488"/>
+      <text x="30" y="160" font-family="Arial" font-size="12" fill="#0d9488">utils/</text>
+      <text x="30" y="180" font-family="Arial" font-size="12" fill="#475569">• visualization.py, mqtt_handler.py</text>
+      <!-- assets directory -->
+      <rect x="370" y="0" width="350" height="120" rx="5" fill="#8b5cf6" fill-opacity="0.1" stroke="#8b5cf6"/>
+      <text x="380" y="20" font-family="Arial" font-size="14" fill="#8b5cf6">assets/</text>
+      <text x="380" y="45" font-family="Arial" font-size="12" fill="#475569">sounds/</text>
+      <text x="390" y="65" font-family="Arial" font-size="12" fill="#475569">• ring_1.mp3, ring_2.mp3</text>
+      <text x="380" y="85" font-family="Arial" font-size="12" fill="#475569">images/</text>
+      <text x="390" y="105" font-family="Arial" font-size="12" fill="#475569">• thumbs_up.png, thumbs_down.png</text>
+      <!-- Other directories -->
+      <rect x="370" y="140" width="165" height="50" rx="5" fill="#ef4444" fill-opacity="0.1" stroke="#ef4444"/>
+      <text x="380" y="160" font-family="Arial" font-size="14" fill="#ef4444">tests/</text>
+      <text x="380" y="180" font-family="Arial" font-size="12" fill="#475569">• __init__.py</text>
+      <rect x="555" y="140" width="165" height="50" rx="5" fill="#f59e0b" fill-opacity="0.1" stroke="#f59e0b"/>
+      <text x="565" y="160" font-family="Arial" font-size="14" fill="#f59e0b">docs/</text>
+      <text x="565" y="180" font-family="Arial" font-size="12" fill="#475569">• API.md</text>
+    </g>
+    <!-- Root Files -->
+    <rect x="20" y="270" width="720" height="60" rx="5" fill="#64748b" fill-opacity="0.1" stroke="#64748b"/>
+    <text x="30" y="290" font-family="Arial" font-size="14" fill="#64748b">Root Files</text>
+    <text x="30" y="315" font-family="Arial" font-size="12" fill="#475569">• requirements.txt    • LICENSE    • README.md</text>
+  </g>
+</svg>
 
 ## 🚀 Quick Start
 
@@ -151,7 +202,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions and support, please open an issue or contact the maintainers:
 - Email: armanruet@gmail.com
-- LinkedIn: @armanruet
+- LinkedIn: [armanruet](https://www.linkedin.com/in/armanruet/)
 
 ---
 Made with ❤️ by Arman
